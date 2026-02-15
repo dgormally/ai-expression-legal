@@ -1,101 +1,181 @@
-# Privacy Policy for AIExpression
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — AI Expression</title>
+  <style>
+    :root {
+      --bg: #0f0f12;
+      --surface: #1a1a1f;
+      --text: #e8e8ed;
+      --text-muted: #9a9aa8;
+      --accent: #7c6cf9;
+      --border: #2a2a32;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+    header {
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin: 0 0 0.25rem 0;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin: 2rem 0 0.75rem 0;
+      color: var(--text);
+    }
+    h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 1.25rem 0 0.5rem 0;
+      color: var(--text-muted);
+    }
+    p, li {
+      margin: 0 0 0.75rem 0;
+      color: var(--text-muted);
+    }
+    ul {
+      margin: 0 0 1rem 0;
+      padding-left: 1.5rem;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    strong { color: var(--text); }
+    .app-name { color: var(--accent); font-weight: 600; }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8f8fa;
+        --surface: #fff;
+        --text: #1a1a1f;
+        --text-muted: #5c5c6b;
+        --accent: #5b4cdb;
+        --border: #e4e4ea;
+      }
+    }
+    @media print {
+      body { background: #fff; color: #111; }
+      .container { max-width: none; }
+      a { color: #333; }
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Privacy Policy</h1>
+      <p class="meta"><span class="app-name">AI Expression</span> · Last updated: February 15, 2025</p>
+    </header>
 
-**Last updated:** [Add date]
+    <p>This Privacy Policy describes how <span class="app-name">AI Expression</span> ("we", "our", or "the app") collects, uses, and protects your information when you use our mobile application.</p>
 
-This Privacy Policy describes how AIExpression ("we", "our", or "the app") collects, uses, and protects your information when you use our mobile application.
+    <h2>1. Overview</h2>
+    <p>AI Expression is an expression and presence coaching app that analyzes short videos (e.g. for TikTok-style content) to give you feedback on how you come across—confidence, warmth, eye contact, and related cues. We are committed to transparency about the data we use and where it goes.</p>
 
----
+    <h2>2. Information We Collect and Use</h2>
 
-## 1. Overview
+    <h3>2.1 Video and facial analysis</h3>
+    <ul>
+      <li><strong>What we use:</strong> When you record or submit a video for analysis, the app extracts <strong>still frames</strong> from your video and sends those <strong>images</strong> to <strong>Google's Gemini API</strong> (Google Cloud / AI services) to generate expression and presence feedback (e.g. scores, strengths, areas for improvement, "how viewers see you").</li>
+      <li><strong>Purpose:</strong> To provide you with AI-generated coaching and analysis.</li>
+      <li><strong>Retention:</strong> We do <strong>not</strong> store your video or the sent frames on our own servers. Processing is done by Google's services in accordance with their API terms and data processing policies. Any temporary files used on your device for processing are handled locally and can be cleared with app data.</li>
+    </ul>
 
-AIExpression is an expression and presence coaching app that analyzes short videos (e.g. for TikTok-style content) to give you feedback on how you come across—confidence, warmth, eye contact, and related cues. We are committed to transparency about the data we use and where it goes.
+    <h3>2.2 Data stored on your device</h3>
+    <p>The app stores the following <strong>only on your device</strong> (using Android DataStore/Preferences):</p>
+    <ul>
+      <li>Whether you have completed onboarding.</li>
+      <li>Your most recent analysis score and a short summary text (for display on the home screen).</li>
+      <li>Whether you have an active premium or 24-hour "Deep Analysis" pass and when it expires.</li>
+      <li>General app preferences needed for the app to function.</li>
+    </ul>
+    <p>This data is <strong>not</strong> sent to our servers and is not used to identify you across devices.</p>
 
----
+    <h3>2.3 Purchase and billing</h3>
+    <p>If you buy the <strong>24-hour Deep Analysis pass</strong>, the purchase is processed by <strong>Google Play</strong>. Google's billing system handles payment details; we do not see or store your payment information. We receive from Google only the information needed to grant access (e.g. that a purchase was completed) so we can activate the pass on your device. Purchase and subscription data are also subject to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
 
-## 2. Information We Collect and Use
+    <h3>2.4 Analytics</h3>
+    <p>We use <strong>Firebase Analytics</strong> (Google) to understand how the app is used—for example, which screens are viewed and general usage events (e.g. button taps, feature usage). This helps us improve the app. Analytics data is aggregated and does not include your video, face, or personal content. Firebase's use of data is governed by <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
 
-### 2.1 Video and facial analysis
+    <h2>3. Third-Party Services</h2>
+    <ul>
+      <li><strong>Google Gemini API:</strong> Video frames are sent to Google for AI analysis. Google's use of data is governed by <a href="https://cloud.google.com/terms/cloud-privacy-notice" target="_blank" rel="noopener">Google Cloud Privacy</a> and their <a href="https://ai.google.dev/terms" target="_blank" rel="noopener">Generative AI terms</a>.</li>
+      <li><strong>Google Play (Billing):</strong> In-app purchases are processed by Google Play. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Play's terms and privacy</a>.</li>
+      <li><strong>Firebase (Analytics):</strong> Usage analytics are processed by Google Firebase. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
+    </ul>
+    <p>We do not sell your personal information to third parties.</p>
 
-- **What we use:** When you record or submit a video for analysis, the app extracts **still frames** from your video and sends those **images** to **Google’s Gemini API** (Google Cloud / AI services) to generate expression and presence feedback (e.g. scores, strengths, areas for improvement, “how viewers see you”).
-- **Purpose:** To provide you with AI-generated coaching and analysis.
-- **Retention:** We do **not** store your video or the sent frames on our own servers. Processing is done by Google’s services in accordance with their API terms and data processing policies. Any temporary files used on your device for processing are handled locally and can be cleared with app data.
+    <h2>4. Permissions</h2>
+    <p>The app may request:</p>
+    <ul>
+      <li><strong>Camera:</strong> To record video for analysis.</li>
+      <li><strong>Microphone:</strong> If used for recording (e.g. if you enable sound in a recording flow).</li>
+      <li><strong>Storage / Media:</strong> If the app saves or reads video files on your device.</li>
+    </ul>
+    <p>We use these only for the features described (e.g. recording and analyzing your video). You can revoke permissions in your device settings; some features may then stop working.</p>
 
-### 2.2 Data stored on your device
+    <h2>5. Sharing You Control</h2>
+    <p>If you use in-app sharing (e.g. to share results or images), that data is shared only through the channels you choose (e.g. another app or contact). We do not collect or store the content you share through those actions.</p>
 
-The app stores the following **only on your device** (using Android DataStore/Preferences):
+    <h2>6. Data Retention and Deletion</h2>
+    <ul>
+      <li><strong>On our side:</strong> We do not operate servers that store your video or facial data; analysis is done via third-party APIs (e.g. Gemini) as described above.</li>
+      <li><strong>On your device:</strong> Data stored locally (scores, preferences, pass expiry) remains until you clear the app's data or uninstall the app. Clearing app data or uninstalling removes this local data.</li>
+    </ul>
 
-- Whether you have completed onboarding.
-- Your most recent analysis score and a short summary text (for display on the home screen).
-- Whether you have an active premium or 24-hour “Deep Analysis” pass and when it expires.
-- General app preferences needed for the app to function.
+    <h2>7. Children</h2>
+    <p>The app is not directed at children under 13 (or equivalent minimum age in your country). We do not knowingly collect personal information from children. If you believe a child has provided us with data, please contact us and we will take steps to delete it where applicable.</p>
 
-This data is **not** sent to our servers and is not used to identify you across devices.
+    <h2>8. International Use</h2>
+    <p>If you use the app from outside your home country, your data may be processed in the country where the relevant services (e.g. Google) operate. By using the app, you consent to that transfer to the extent required by law.</p>
 
-### 2.3 Purchase and billing
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will post the updated policy in the app or at a link we provide, and we may indicate the "Last updated" date. Continued use of the app after changes constitutes acceptance of the revised policy where permitted by law.</p>
 
-- If you buy the **24-hour Deep Analysis pass**, the purchase is processed by **Google Play**. Google’s billing system handles payment details; we do not see or store your payment information.
-- We receive from Google only the information needed to grant access (e.g. that a purchase was completed) so we can activate the pass on your device. Purchase and subscription data are also subject to [Google’s Privacy Policy](https://policies.google.com/privacy).
+    <h2>10. Contact</h2>
+    <p>If you have questions about this Privacy Policy or our data practices, please contact us at:</p>
+    <p><a href="mailto:support@example.com">support@example.com</a></p>
+    <p><em>Replace with your actual contact email or support URL before publishing.</em></p>
 
----
-
-## 3. Third-Party Services
-
-- **Google Gemini API:** Video frames are sent to Google for AI analysis. Google’s use of data is governed by [Google Cloud Privacy](https://cloud.google.com/terms/cloud-privacy-notice) and their [Generative AI terms](https://ai.google.dev/terms).
-- **Google Play (Billing):** In-app purchases are processed by Google Play. See [Google Play’s terms and privacy](https://policies.google.com/privacy).
-
-We do not sell your personal information to third parties.
-
----
-
-## 4. Permissions
-
-The app may request:
-
-- **Camera:** To record video for analysis.
-- **Microphone:** If used for recording (e.g. if you enable sound in a recording flow).
-- **Storage / Media:** If the app saves or reads video files on your device.
-
-We use these only for the features described (e.g. recording and analyzing your video). You can revoke permissions in your device settings; some features may then stop working.
-
----
-
-## 5. Sharing You Control
-
-- **Share / export:** If you use in-app sharing (e.g. to share results or images), that data is shared only through the channels you choose (e.g. another app or contact). We do not collect or store the content you share through those actions.
-
----
-
-## 6. Data Retention and Deletion
-
-- **On our side:** We do not operate servers that store your video or facial data; analysis is done via third-party APIs (e.g. Gemini) as described above.
-- **On your device:** Data stored locally (scores, preferences, pass expiry) remains until you clear the app’s data or uninstall the app. Clearing app data or uninstalling removes this local data.
-
----
-
-## 7. Children
-
-The app is not directed at children under 13 (or equivalent minimum age in your country). We do not knowingly collect personal information from children. If you believe a child has provided us with data, please contact us and we will take steps to delete it where applicable.
-
----
-
-## 8. International Use
-
-If you use the app from outside your home country, your data may be processed in the country where the relevant services (e.g. Google) operate. By using the app, you consent to that transfer to the extent required by law.
-
----
-
-## 9. Changes to This Policy
-
-We may update this Privacy Policy from time to time. We will post the updated policy in the app or at a link we provide, and we may indicate the “Last updated” date. Continued use of the app after changes constitutes acceptance of the revised policy where permitted by law.
-
----
-
-## 10. Contact
-
-If you have questions about this Privacy Policy or our data practices, please contact us at:
-
-**[Insert your contact email or support URL]**
-
----
-
-*This privacy policy was written for the AIExpression app (com.dgapps.aiexpression).*
+    <footer>
+      <p>This privacy policy applies to the AI Expression app (com.dgapps.aiexpression).</p>
+    </footer>
+  </div>
+</body>
+</html>
